@@ -6,7 +6,7 @@ The WBPA.WellKnownLocations assembly provides a way for ASP.NET Core application
 
 Useful links for this project:
 
-* WBPA.Amazon on [Nuget](https://www.nuget.org/packages/WBPA.WellKnownLocations/)
+* WBPA.WellKnownLocations on [Nuget](https://www.nuget.org/packages/WBPA.WellKnownLocations/)
 
 * My profile on [LinkedIn](http://dk.linkedin.com/in/gimlichael)
 * My profile on [Twitter](https://twitter.com/gimlichael)
