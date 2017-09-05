@@ -19,7 +19,7 @@ namespace WBPA.WellKnownLocations
         /// <param name="builder">The <see cref="IApplicationBuilder"/> instance.</param>
         /// <param name="setup">The <see cref="WellKnownLocationsOptions"/> which need to be configured.</param>
         /// <returns>The <see cref="IApplicationBuilder"/> instance.</returns>
-        public static IApplicationBuilder UseWellKnownLocation(this IApplicationBuilder builder, Action<WellKnownLocationsOptions> setup = null)
+        public static IApplicationBuilder UseWellKnownLocations(this IApplicationBuilder builder, Action<WellKnownLocationsOptions> setup = null)
         {
             var options = setup.ConfigureOptions();
             var he = builder.ApplicationServices.GetService<IHostingEnvironment>();
