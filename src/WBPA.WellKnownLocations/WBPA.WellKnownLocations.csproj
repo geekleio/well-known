@@ -9,24 +9,24 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.6</TargetFramework>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>1.0.0.2270</Version>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Version>1.0.2018.840</Version>
     <Authors>Michael Mortensen</Authors>
     <Company>Weubphoria</Company>
-    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <PackageLicenseUrl>https://github.com/wbpa/well-known/blob/master/LICENSE.md</PackageLicenseUrl>
     <Product>Well-Known Locations by Weubphoria</Product>
     <Description>The WBPA.WellKnownLocations assembly provides a way for ASP.NET Core applications to open up the RFC 5785 .well-known directory for sitewide metadata files.</Description>
-    <Copyright>Copyright © Weubphoria 2009-2017. All rights reserved.</Copyright>
+    <Copyright>Copyright © Weubphoria 2009-2018. All rights reserved.</Copyright>
     <PackageProjectUrl>https://github.com/wbpa/well-known</PackageProjectUrl>
     <PackageIconUrl>https://nblcdn.net/themes/weubphoria.dk/nuget/wbpa-rfc-5785.png</PackageIconUrl>
     <PackageTags>wellknown wellknownlocation wellknownlocations well-known location locations acme-challenge assetlinks.json asp.net core</PackageTags>
-    <AssemblyVersion>1.0.0.2270</AssemblyVersion>
-    <FileVersion>1.0.0.2270</FileVersion>
+    <AssemblyVersion>1.0.2018.840</AssemblyVersion>
+    <FileVersion>1.0.2018.840</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Cuemon.Core.Package" Version="4.2.2017.2270" />
-    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.2" />
+    <PackageReference Include="Cuemon.Core" Version="4.2.2018.840" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.3" />
     <PackageReference Include="Microsoft.Extensions.FileProviders.Physical" Version="1.1.1" />
   </ItemGroup>
 
