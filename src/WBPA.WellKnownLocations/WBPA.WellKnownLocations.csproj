@@ -21,11 +21,11 @@
     <PackageIconUrl>https://nblcdn.net/themes/weubphoria.dk/nuget/wbpa-rfc-5785.png</PackageIconUrl>
     <PackageTags>wellknown wellknownlocation wellknownlocations well-known location locations acme-challenge assetlinks.json asp.net core</PackageTags>
     <AssemblyVersion>1.0.2018.2200</AssemblyVersion>
-    <FileVersion>1.0.2018.2200</FileVersion>
+    <FileVersion>1.0.2018.2530</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Cuemon.Core" Version="4.3.2018.2200" />
+    <PackageReference Include="Cuemon.Core" Version="5.0.2018.253" />
     <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.1.1" />
     <PackageReference Include="Microsoft.Extensions.FileProviders.Physical" Version="2.1.1" />
   </ItemGroup>
